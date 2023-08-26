@@ -15,39 +15,43 @@
   </style>
 </head>
 <body>
-  <div class="box">
+  <main>
     <nav class="navbar">
      <div class="logo">
       <img src="./assets/images/logo.svg" alt="">
     </div>
+    <div class="mobile-menu">
+      <img class="hamburger" src="./assets/images/icon-menu.svg" alt="">
+      <img class="close" src="./assets/images/icon-menu-close.svg" alt="">
+    </div>
+    <div class="menu">
       <ul>
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle"><img src="./assets/images/icon-menu.svg" class="hamburger" for="checkbox_toggle" alt=""></label>
-          <div class="menu">
-          <li class="item"> <a href="/"> Home </li></a>
-          <li class="item"> <a href="/">New</li></a>
-          <li class="item"> <a href="/">Popular</li></a>
-          <li class="item"> <a href="/">Trending</li></a>
-          <li class="item"> <a href="/">Categories</li></a>
+          <li class="item">  Home </li>
+          <li class="item"> New</li>
+          <li class="item"> Popular</li>
+          <li class="item"> Trending</li>
+          <li class="item"> Categories</li>
           
-        </div>
         </ul>
+      </div>
       </nav>
-      <main>
         <div class="wrapper">
-        <div class="news">
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="" width="1000px" height="450px">
+          <div class="hero">
+        <div class="big-img">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="" >
         </div>
+        <div class="bottom">
         <div class="web">
           <h1 class="webs" >The Bright Future of Web 3.0?</h1>
         </div>
         <div class="read-more">
           <p class="headline__description">
             We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
-            But is it really fulfilling its promise?
-          </p>
+            But is it really fulfilling its promise? </p>
           <button class="btn">Read More</button>
         </div>
+      </div>
+    </div>
           <div class="black-new">
               <h1 class="head-new">New</h1>
               <h5 id="h1"> Hydrogen VS Electric Cars</h5>
@@ -60,40 +64,41 @@
               <p id="h2">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </div>
       </div>
-      </main>
-  <div class="third">
-    <div class="point">
-      <img src="./assets/images/image-retro-pcs.jpg" alt="">
-      <div class="p1">
-           <h1 class="numb">01</h1>
-           <h5 class="head">Reviving Retro PCs</h5>
-           <p class="content">  What happens when old PCs are given modern upgrades?</p>
+      <div class="third">
+        <div class="point">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="">
+          <div class="p1">
+            <h1 class="numb">01</h1>
+            <h5 class="head">Reviving Retro PCs</h5>
+            <p class="content">  What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="point">
+          <img src="./assets/images/image-top-laptops.jpg" alt="">
+          <div class="p2">
+            <h1 class="numb">02</h1>
+            <h5 class="head"> Top 10 Laptops of 2022</h5>
+            <p class="content"> Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="point">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="">
+          <div class="p3">
+            <h1 class="numb">03</h1>
+            <h5 class="head">The Growth of Gaming</h5>
+            <p class="content"> How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div> 
+        
       </div>
-      </div>
-      <div class="point">
-        <img src="./assets/images/image-top-laptops.jpg" alt="">
-      <div class="p2">
-        <h1 class="numb">02</h1>
-        <h5 class="head"> Top 10 Laptops of 2022</h5>
-        <p class="content"> Our best picks for various needs and budgets.</p>
-      </div>
-    </div>
-    <div class="point">
-      <img src="./assets/images/image-gaming-growth.jpg" alt="">
-      <div class="p3">
-        <h1 class="numb">03</h1>
-        <h5 class="head">The Growth of Gaming</h5>
-        <p class="content"> How the pandemic has sparked fresh opportunities.</p>
-      </div>
-    </div> 
-    
-  </div>
-    </div>
-
-  
+      
+      
+      
+    </main>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="./app.js"></script>
 </body>
 </html>
